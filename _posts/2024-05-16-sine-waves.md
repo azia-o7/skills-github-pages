@@ -10,7 +10,7 @@ https://youtu.be/vmhRlDyPHMQ?feature=shared
 This is my starting point with the Sine Waves code.
 
 Screenshot 1: <br>
-![This is one screenshot of the code with the sine waves moving upwards.](/skills-github-pages/images/sine-wave-original-screenshot-1.png)
+![This is one screenshot of the code with the sine waves moving upwards.](/skills-github-pages/images/sine-wave-original-screenshot-1.png)<br>
 Screenshot 2: <br>
 ![And this is a screenshot of the code with the sine waves moving downwards](/skills-github-pages/images/sine-wave-original-screenshot-2.png)
 
@@ -60,7 +60,7 @@ function draw() {
 This is my first variation of the project. There are several noticable differences between the original and this variation. The main difference is that the shape is no longer circles but they are pentagons now. This was done by changing Line 25's third for loop rule from j += 10 to 75. This was something I found out by accident by just changing the values. From this experiment, the higher the number, the more defined edges it has since any number lower is more rounder and closer to a circle. The shape is also bigger as I added more "rings" to make it 80 rings instead of 50. This change was on Line 15. I did change Line 17's values on the green map but I think this just slightly changed how much the green impacts the waves. I decided to also change the rotate from ** frameCount ** to the a flat value of 5. This seems to have sped up the animation of how quickly it rotates around. Line 29 impacts the speed that the waves oscillates and I increased the numbers so it oscillates faster. This has created a more interesting shape for the project.
 
 Screenshot 1: <br>
-![This is one screenshot of the variation's code with the sine waves moving upwards.](/skills-github-pages/images/sine-wave-first-copy-screenshot-1.png)
+![This is one screenshot of the variation's code with the sine waves moving upwards.](/skills-github-pages/images/sine-wave-first-copy-screenshot-1.png)<br>
 Screenshot 2: <br>
 ![And this is a screenshot of the variation's code with the sine waves moving downwards](/skills-github-pages/images/sine-wave-first-copy-screenshot-2.png)
 
@@ -114,12 +114,12 @@ This is my second variation of the project. This heavily deviates from the origi
 This is where my code seems to divert from looking similar to Dave Whyte's work since he works with either dots or defined shapes whilst my work now has ambigious shapes being created from the dagger pieces that are flying around on the screen. It's pretty much up to the user as to what shapes they see on the screen which brings a different meaning to whoever views the piece.
 
 Screenshot 1: <br>
-![This is one screenshot of the variation's code at the start of the code.](/skills-github-pages/images/sine-wave-second-copy-screenshot-1.png)
+![This is one screenshot of the variation's code at the start of the code.](/skills-github-pages/images/sine-wave-second-copy-screenshot-1.png)<br>
 Screenshot 2: <br>
 ![And this is a screenshot of the variation's code with the base shape of the code.](/skills-github-pages/images/sine-wave-second-copy-screenshot-2.png)
 
 Screenshot 3: <br>
-![This is one screenshot of the variation's code and one of the many bird eye view shapes it makes.](/skills-github-pages/images/sine-wave-second-copy-screenshot-3.png)
+![This is one screenshot of the variation's code and one of the many bird eye view shapes it makes.](/skills-github-pages/images/sine-wave-second-copy-screenshot-3.png)<br>
 Screenshot 4: <br>
 ![And this is a screenshot of the variation's code and one of the many bird eye view shapes it makes.](/skills-github-pages/images/sine-wave-second-copy-screenshot-4.png)
 
