@@ -55,6 +55,7 @@ function draw() {
   }
 }
 ```
+[See the Code here](/skills-github-pages/creative-code/sine-waves-original/index.html)
 
 ## Variation 1
 This is my first variation of the project. There are several noticable differences between the original and this variation. The main difference is that the shape is no longer circles but they are pentagons now. This was done by changing Line 25's third for loop rule from j += 10 to 75. This was something I found out by accident by just changing the values. From this experiment, the higher the number, the more defined edges it has since any number lower is more rounder and closer to a circle. The shape is also bigger as I added more "rings" to make it 80 rings instead of 50. This change was on Line 15. I did change Line 17's values on the green map but I think this just slightly changed how much the green impacts the waves. I decided to also change the rotate from ** frameCount ** to the a flat value of 5. This seems to have sped up the animation of how quickly it rotates around. Line 29 impacts the speed that the waves oscillates and I increased the numbers so it oscillates faster. This has created a more interesting shape for the project.
