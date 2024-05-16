@@ -65,6 +65,8 @@ Screenshot 2:
 ![And this is a screenshot of the variation's code with the sine waves moving downwards](/skills-github-pages/images/sine-wave-first-copy-screenshot-2.png)
 
 This is also where ** orbitControl ** comes in as well since if you click to look at this shape from above, it looks like a rose that is continously moving in a loop which arguably looks a lot better than the shape that the code had original created. This also looks a lot similar to some of Dave Whyte's work as well especially the piece "Chequered Waves". This piece has the same oscillation that both the original and this variation have, but the animation feels like a slower version of the rose's animation. This can be found here: https://dribbble.com/shots/3648612-Chequered-waves
+
+Screenshot 3:
 ![This is a screenshot of the bird eye's view of the waves which shows the Rose design](/skills-github-pages/images/sine-wave-first-copy-screenshot-3.png)
 
 ## Variation 1's Code
@@ -107,6 +109,112 @@ function draw() {
 ```
 
 ## Variation 2
-This is my second variation of the project. This heavily deviates from the original work and turns it into something that doesn't even look like waves at all despite the fact that the oscillation is still there. They look more like daggers floating around in a spiral shape that changes into a variety of other shapes.
+This is my second variation of the project. This heavily deviates from the original work and turns it into something that doesn't even look like waves at all despite the fact that the oscillation is still there. They look more like daggers floating around in a spiral shape that changes into a variety of other shapes as time passes. I increased the "ring" total again to 100 which has created more iterations to the wave. I changed the rotate back to ** frameCount ** but I decided to divide it by half the amount so it was still moving faster than the originsl. As for the shape looking like flying daggers, I decreased Line 25's original j < 360 value to 120 which seemed to create the harsher shape and then I increased the j += 10 from the original to 30 so it would separate the daggers more. I also halved Line 29's final multiplication from 50 to 25 so that the shape would be a lot more flat. By chance, the program decided to create new shapes when you look at it from above as time passes which was an accident that I have kept within the program since it brought a different perspective to the code. The patterns seem to be flowers, pinwheels, propellers but there is also a serpent-like pattern as well which brings a variety of different shapes to the program.
+
+This is where my code seems to divert from looking similar to Dave Whyte's work since he works with either dots or defined shapes whilst my work now has ambigious shapes being created from the dagger pieces that are flying around on the screen. It's pretty much up to the user as to what shapes they see on the screen which brings a different meaning to whoever views the piece.
+
+Screenshot 1: 
+![This is one screenshot of the variation's code at the start of the code.](/skills-github-pages/images/sine-wave-second-copy-screenshot-1.png)
+Screenshot 2: 
+![And this is a screenshot of the variation's code with the base shape of the code.](/skills-github-pages/images/sine-wave-second-copy-screenshot-2.png)
+
+Screenshot 3: 
+![This is one screenshot of the variation's code and one of the many bird eye view shapes it makes.](/skills-github-pages/images/sine-wave-second-copy-screenshot-3.png)
+Screenshot 4: 
+![And this is a screenshot of the variation's code and one of the many bird eye view shapes it makes.](/skills-github-pages/images/sine-wave-second-copy-screenshot-4.png)
+
 
 ## Variation 2's Code
+```
+function setup() {
+  createCanvas(600, 600, WEBGL);
+  angleMode(DEGREES)
+}
+
+function draw() {
+  background(0);
+  orbitControl()
+  
+  rotateX(60)
+  
+  noFill()
+  stroke(255)
+  
+  for (var i = 0; i < 100; i++) {
+    var r = map(sin(frameCount), -1, 1, 100, 255)
+    var g = map(i, 0, 20, 100, 255)
+    var b = map(cos(frameCount), -1,1,255,100)
+    
+    stroke(r, g, b)
+        
+    rotate(frameCount/25)
+    
+    beginShape()
+    for (var j = 0; j < 120; j += 30){
+      var rad = i * 2
+      var x = rad * cos(j/2)
+      var y = rad * sin(j)
+      var z = sin(frameCount * 2 + i * 10) * 25
+      
+      vertex(x, y, z)
+    }
+    endShape(CLOSE)
+  }
+}
+```
+
+## Final Variation
+My final variation also heavily diverts from the original design. The design is completely different from what I originally intended. I originally wanted to make the code has the smallest possible shapes by changing the value to 359 as 360 cannot make a shape. I then again increased the number of iterations again so there are now 160 iterations. I increased the rotation's frameCount back up to the original /50. I changed the j < 360 to 1000. I'm not sure what this did but when trying to decrease the number, it failed to make the dots so I kept it at 1000. I then edited Line 28 for the first time by dividing j by 2 and I changed Line 29 again by increasing several of the numbers to increase the layers of the dots. This created a program that looked like it had rainbow particles jumping around in circles and occassionally making shapes. 
+
+Screenshot 1: 
+![This is one screenshot of the variation's code before I changed Line 27](/skills-github-pages/images/sine-wave-final-copy-screenshot-1.png)
+
+However, upon changing Line 27 to divide j by 2, it created a completely different design. It turned the dots into stars that look like they have been drawn with lines only. 
+
+Screenshot 2: 
+![This is one screenshot of the variation's code after I changed Line 27](/skills-github-pages/images/sine-wave-final-copy-screenshot-2.png)
+
+This was an accident that I decided to keep as I think it followed the theme I seemed to be keeping to which was perspective and controlling what you see within a series of iterations. I think perspective became a key part of my code when I worked on the first variation and was a theme I carried through to the other ones. Again, this work diverts to be it's own project compared to Dave Whyte's work which is what the original was similar to.
+
+Screenshot 3: 
+![This is one screenshot of the variation's code and one of the many bird eye view shapes it makes.](/skills-github-pages/images/sine-wave-final-copy-screenshot-3.png)
+
+
+## Final Variation's Code
+```
+function setup() {
+  createCanvas(600, 600, WEBGL);
+  angleMode(DEGREES)
+}
+
+function draw() {
+  background(0);
+  orbitControl()
+  
+  rotateX(60)
+  
+  noFill()
+  stroke(255)
+  
+  for (var i = 0; i < 160; i++) {
+    var r = map(sin(frameCount), -1, 1, 100, 255)
+    var g = map(i, 0, 20, 100, 255)
+    var b = map(cos(frameCount), -1,1,255,100)
+    
+    stroke(r, g, b)
+        
+    rotate(frameCount/50)
+    
+    beginShape()
+    for (var j = 0; j < 1000; j += 359){
+      var rad = i * 2
+      var x = rad * cos(j/2)
+      var y = rad * sin(j/2)
+      var z = sin(frameCount * 9 + i * 60) * 100
+      
+      vertex(x, y, z)
+    }
+    endShape(CLOSE)
+  }
+}
+```
