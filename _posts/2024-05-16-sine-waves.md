@@ -108,6 +108,7 @@ function draw() {
   }
 }
 ```
+[See the Code here](/skills-github-pages/creative-code/sine-waves-first-copy/index.html)
 
 ## Variation 2
 This is my second variation of the project. This heavily deviates from the original work and turns it into something that doesn't even look like waves at all despite the fact that the oscillation is still there. They look more like daggers floating around in a spiral shape that changes into a variety of other shapes as time passes. I increased the "ring" total again to 100 which has created more iterations to the wave. I changed the rotate back to ** frameCount ** but I decided to divide it by half the amount so it was still moving faster than the originsl. As for the shape looking like flying daggers, I decreased Line 25's original j < 360 value to 120 which seemed to create the harsher shape and then I increased the j += 10 from the original to 30 so it would separate the daggers more. I also halved Line 29's final multiplication from 50 to 25 so that the shape would be a lot more flat. By chance, the program decided to create new shapes when you look at it from above as time passes which was an accident that I have kept within the program since it brought a different perspective to the code. The patterns seem to be flowers, pinwheels, propellers but there is also a serpent-like pattern as well which brings a variety of different shapes to the program.
@@ -163,6 +164,7 @@ function draw() {
   }
 }
 ```
+[See the Code here](/skills-github-pages/creative-code/sine-waves-second-copy/index.html)
 
 ## Final Variation
 My final variation also heavily diverts from the original design. The design is completely different from what I originally intended. I originally wanted to make the code has the smallest possible shapes by changing the value to 359 as 360 cannot make a shape. I then again increased the number of iterations again so there are now 160 iterations. I increased the rotation's frameCount back up to the original /50. I changed the j < 360 to 1000. I'm not sure what this did but when trying to decrease the number, it failed to make the dots so I kept it at 1000. I then edited Line 28 for the first time by dividing j by 2 and I changed Line 29 again by increasing several of the numbers to increase the layers of the dots. This created a program that looked like it had rainbow particles jumping around in circles and occassionally making shapes. 
@@ -219,3 +221,4 @@ function draw() {
   }
 }
 ```
+[See the Code here](/skills-github-pages/creative-code/sine-waves-final-copy/index.html)
