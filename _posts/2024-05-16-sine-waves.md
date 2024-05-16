@@ -9,9 +9,9 @@ I followed this tutorial that I found on ** YouTube ** which gave a basic unders
 https://youtu.be/vmhRlDyPHMQ?feature=shared
 This is my starting point with the Sine Waves code.
 
-Screenshot 1: 
+Screenshot 1: <br>
 ![This is one screenshot of the code with the sine waves moving upwards.](/skills-github-pages/images/sine-wave-original-screenshot-1.png)
-Screenshot 2: 
+Screenshot 2: <br>
 ![And this is a screenshot of the code with the sine waves moving downwards](/skills-github-pages/images/sine-wave-original-screenshot-2.png)
 
 The main code consists of for loops, maps, rotate and using sine and cosine to create the wave structure. The for loops create the number of waves in the structure but also what the structure looks like on a basic level. The ** for ** loop is used over the ** while ** loop because you as the user create the number of iterations. The ** map ** function re-maps a number within a specific range to another specific range. It calls one value which could be the number 3 between 0 and 10, and then remaps it within a different range for example, 0 to 100. So the returned value would be 30 as that is the same value as 3 within the original range. ** Rotate ** turns the shape and because I have paired it with ** frameCount **, it will constantly be rotating within that frame count. ** Sine ** oscillates the shape up and down and ** cosine ** oscillates the shape left and right. This is why it is called a sine wave since they both control the "wave" motion of the shape. Since the work relies on frameCounts, time is a very important factor and influence on this final project. I also added ** orbitControl ** so I could allow the user to change the angle of how they see the waves. This proved to be helpful within the variations as they started making different shapes when looked at from above.
@@ -59,14 +59,14 @@ function draw() {
 ## Variation 1
 This is my first variation of the project. There are several noticable differences between the original and this variation. The main difference is that the shape is no longer circles but they are pentagons now. This was done by changing Line 25's third for loop rule from j += 10 to 75. This was something I found out by accident by just changing the values. From this experiment, the higher the number, the more defined edges it has since any number lower is more rounder and closer to a circle. The shape is also bigger as I added more "rings" to make it 80 rings instead of 50. This change was on Line 15. I did change Line 17's values on the green map but I think this just slightly changed how much the green impacts the waves. I decided to also change the rotate from ** frameCount ** to the a flat value of 5. This seems to have sped up the animation of how quickly it rotates around. Line 29 impacts the speed that the waves oscillates and I increased the numbers so it oscillates faster. This has created a more interesting shape for the project.
 
-Screenshot 1: 
+Screenshot 1: <br>
 ![This is one screenshot of the variation's code with the sine waves moving upwards.](/skills-github-pages/images/sine-wave-first-copy-screenshot-1.png)
-Screenshot 2: 
+Screenshot 2: <br>
 ![And this is a screenshot of the variation's code with the sine waves moving downwards](/skills-github-pages/images/sine-wave-first-copy-screenshot-2.png)
 
 This is also where ** orbitControl ** comes in as well since if you click to look at this shape from above, it looks like a rose that is continously moving in a loop which arguably looks a lot better than the shape that the code had original created. This also looks a lot similar to some of Dave Whyte's work as well especially the piece "Chequered Waves". This piece has the same oscillation that both the original and this variation have, but the animation feels like a slower version of the rose's animation. This can be found here: https://dribbble.com/shots/3648612-Chequered-waves
 
-Screenshot 3:
+Screenshot 3: <br>
 ![This is a screenshot of the bird eye's view of the waves which shows the Rose design](/skills-github-pages/images/sine-wave-first-copy-screenshot-3.png)
 
 ## Variation 1's Code
@@ -113,14 +113,14 @@ This is my second variation of the project. This heavily deviates from the origi
 
 This is where my code seems to divert from looking similar to Dave Whyte's work since he works with either dots or defined shapes whilst my work now has ambigious shapes being created from the dagger pieces that are flying around on the screen. It's pretty much up to the user as to what shapes they see on the screen which brings a different meaning to whoever views the piece.
 
-Screenshot 1: 
+Screenshot 1: <br>
 ![This is one screenshot of the variation's code at the start of the code.](/skills-github-pages/images/sine-wave-second-copy-screenshot-1.png)
-Screenshot 2: 
+Screenshot 2: <br>
 ![And this is a screenshot of the variation's code with the base shape of the code.](/skills-github-pages/images/sine-wave-second-copy-screenshot-2.png)
 
-Screenshot 3: 
+Screenshot 3: <br>
 ![This is one screenshot of the variation's code and one of the many bird eye view shapes it makes.](/skills-github-pages/images/sine-wave-second-copy-screenshot-3.png)
-Screenshot 4: 
+Screenshot 4: <br>
 ![And this is a screenshot of the variation's code and one of the many bird eye view shapes it makes.](/skills-github-pages/images/sine-wave-second-copy-screenshot-4.png)
 
 
@@ -166,17 +166,17 @@ function draw() {
 ## Final Variation
 My final variation also heavily diverts from the original design. The design is completely different from what I originally intended. I originally wanted to make the code has the smallest possible shapes by changing the value to 359 as 360 cannot make a shape. I then again increased the number of iterations again so there are now 160 iterations. I increased the rotation's frameCount back up to the original /50. I changed the j < 360 to 1000. I'm not sure what this did but when trying to decrease the number, it failed to make the dots so I kept it at 1000. I then edited Line 28 for the first time by dividing j by 2 and I changed Line 29 again by increasing several of the numbers to increase the layers of the dots. This created a program that looked like it had rainbow particles jumping around in circles and occassionally making shapes. 
 
-Screenshot 1: 
+Screenshot 1: <br>
 ![This is one screenshot of the variation's code before I changed Line 27](/skills-github-pages/images/sine-wave-final-copy-screenshot-1.png)
 
 However, upon changing Line 27 to divide j by 2, it created a completely different design. It turned the dots into stars that look like they have been drawn with lines only. 
 
-Screenshot 2: 
+Screenshot 2: <br>
 ![This is one screenshot of the variation's code after I changed Line 27](/skills-github-pages/images/sine-wave-final-copy-screenshot-2.png)
 
 This was an accident that I decided to keep as I think it followed the theme I seemed to be keeping to which was perspective and controlling what you see within a series of iterations. I think perspective became a key part of my code when I worked on the first variation and was a theme I carried through to the other ones. Again, this work diverts to be it's own project compared to Dave Whyte's work which is what the original was similar to.
 
-Screenshot 3: 
+Screenshot 3: <br>
 ![This is one screenshot of the variation's code and one of the many bird eye view shapes it makes.](/skills-github-pages/images/sine-wave-final-copy-screenshot-3.png)
 
 
