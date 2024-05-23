@@ -6,7 +6,7 @@ date: 2024-05-23
 ## The original project and First Variation.
 Earlier within the module, we had a workshop on repetition, variation and chance and Vera Molnar. Her work was mainly iterating shapes into different sizes across the paper whist having them animated at the same time. I was inspired by this but wanted to go my own route with this. I experimented for the entirety of the lesson and ended up with this starting piece for my work followed by the first variation of it. I decided that this was going to be more showcase piece as this was my most original work that mostly came from me and not from a YouTube video that I had found for inspiration.
 Screenshot 1: <br>
-![This is one screenshot of Vera's work since her website was not working.](/skills-github-pages/images/vera-fields-molnar-example-work.png)<br>
+![This is one screenshot of Vera's work since her website was not working.](/skills-github-pages/images/vera-molnar-example-work.png)<br>
 Screenshot 2: <br>
 ![This is one screenshot of my original experimentation](/skills-github-pages/images/repetition-original-screenshot.png)<br>
 Screenshot 3: <br>
