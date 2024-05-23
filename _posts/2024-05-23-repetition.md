@@ -6,11 +6,11 @@ date: 2024-05-23
 ## The original project and First Variation.
 Earlier within the module, we had a workshop on repetition, variation and chance and Vera Molnar. Her work was mainly iterating shapes into different sizes across the paper whist having them animated at the same time. I was inspired by this but wanted to go my own route with this. I experimented for the entirety of the lesson and ended up with this starting piece for my work followed by the first variation of it. I decided that this was going to be more showcase piece as this was my most original work that mostly came from me and not from a YouTube video that I had found for inspiration.
 Screenshot 1: <br>
-![This is one screenshot of Vera's work since her website was not working.](/skills-github-pages/images/vera-fields-molnar-example-work.png)<br>
+![This is one screenshot of Vera's work since her website was not working.](/skills-github-pages/images/vera-molnar-example-work.png)<br>
 Screenshot 2: <br>
 ![This is one screenshot of my original experimentation](/skills-github-pages/images/repetition-original-screenshot.png)<br>
 Screenshot 3: <br>
-![This is one screenshot of my variation of the original](/skills-github-pages/images/repetition-first-copy-screenshot.png)<br>
+![This is one screenshot of my transparent variation of the original](/skills-github-pages/images/repetition-first-copy-screenshot.png)<br>
 
 The main code is more simple compared to the flow fields and sine waves. It uses for loops, translate, rotate and push/pop along with frameRate. ** For ** loops draws the shapes that have been called from the drawTile ** function ** that I created which had the code for the rectangles in it. This would allow the rectangles to be in different positions across and down because of the iteration. ** Translate ** places the rectangle down on the screen and this is then looped by the ** for ** loop. ** Rotate ** is what is causing it to be animated as it is rotating at a specific ** frameCount ** across. ** Push ** and ** Pop ** controls the shapes of the document without within them so it doesn't affect anything outside of the program. This was so I could easily translate the shapes within the function that I call within the loop. 
 
@@ -83,7 +83,8 @@ function drawTile(across,down,step){
 [See the Code here.](/skills-github-pages/creative-code/repetition-first-copy/index.html)
 
 ## Variation 2
-
+Screenshot: <br>
+![This is one screenshot of my circle variation of the original](/skills-github-pages/images/repetition-second-copy-screenshot.png)<br>
 ## Variation 2's Code
 ```
 let step
