@@ -1,6 +1,6 @@
 - - -
 title: "Flow Fields"
-date: 2024-05-16
+date: 2024-05-23
 - - -
 # Flow Fields Experimentation
 ## The original project
@@ -162,6 +162,14 @@ function onScreen(v) {
 [See the Code here](/skills-github-pages/creative-code/flow-fields-second-copy/index.html)
 
 ## Final Variation
+This is my final variation of the flow fields and one of my more impressive experiments that I have to offer. It keeps the main particles of the first two experiments but it makes it look like a falling star map. When you click on the particles, it pauses some of them and lets the rest fall. This can be done multiple times and this allows it to create this almost 3D landscape from the falling particles which I found impressive. It deviates from the mostly computer controlled particles to having it half ran by the computer and half user input with clicking the particles. I really like how it blurs both 2D and 3D to make the final piece whilst keeping the space theme that I continued to have throughout these experiments.
+
+My final changes were changing the ** num ** value to 20000 and then changing the noiseScale to 0.001 which seems to run quite smoothly. I changed the background to 30% transparency and the main difference I did was change Line 21's p.x += cos(a) to p.x + cos(a). The reason this was the main change is because I hadn't touched either of the ** sine ** or ** cosine ** code during these experiments so I decided to change it. The particles now do not oscillate left and right and they only go up and down. When clicking on them, they turn into dots that don't move but all the particles around do move. This was purely by experimenting on accident which is why my work ended up the way it did. In fact, p5.js puts a warning down for that line of code despite the fact that it still works.
+
+Screenshot 1: <br>
+![This is one screenshot of the code with the flow fields moving in the original direction.](/skills-github-pages/images/flow-fields-final-copy-screenshot-1.png)<br>
+Screenshot 2: <br>
+![And this is a screenshot of the code with the flow fields moving in different direction after I clicked it several times.](/skills-github-pages/images/flow-fields-final-copy-screenshot-2.png)
 
 ## Final Variation's Code
 ```
@@ -202,3 +210,4 @@ function onScreen(v) {
   return v.x >= 0 && v.x <= width && v.y >= 0 && v.y <= height;
 }
 ```
+[See the Code here. You can click the particles to change their direction.](/skills-github-pages/creative-code/flow-fields-final-copy/index.html)
