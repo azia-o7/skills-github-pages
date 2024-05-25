@@ -1,5 +1,5 @@
 - - -
-title: "Repetition"
+title: "Self-Drawing"
 date: 2024-05-23
 - - -
 # Repetition Experimentation
