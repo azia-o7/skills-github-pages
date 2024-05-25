@@ -7,6 +7,7 @@ date: 2024-05-23
 From the sine waves experimentation, I had come across the flow fields that were made with Perlin Noise and decided to experiment with that for my next project. Like the sine waves, I started of with the original code so I could experiment with it further.
 I followed this tutorial that I found on ** YouTube ** which let me get a basic understanding of Perlin Noise and the flow fields.
 https://youtu.be/sZBfLgfsvSk?feature=shared
+
 This is my starting point with the Perlin Noise Flow Fields code.
 
 Screenshot 1: <br>

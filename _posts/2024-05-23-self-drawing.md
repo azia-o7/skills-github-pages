@@ -6,6 +6,7 @@ date: 2024-05-23
 ## The original project
 This is the original bezier curve generative art video that I watched on YouTube. This helped me get a deeper understanding of Perlin Noise when it comes to making generative art and also controlling the **noise** function to make the computer draw similar to a human drawing. This is the video below: 
 https://youtu.be/uctX1P3H3xM?feature=shared
+
 This was my starting point with the code.
 
 As for my final project, I wanted to focus on trying to get a computer to almost act like a human and creating generative art as well. I wanted the computer to create its own art and in several different styles using different shapes. There is a smaller amount of code to use because it relies on using Perlin Noise to control the flow and movement of the shapes similar to the flow field experiments I did. I wanted these experiments to focus more on the concept of whether a computer could draw like a human rather than create an actual piece of art. I wanted to focus on the shapes and their positions to create the pieces. I focused on different shapes for each part of the experiments.
