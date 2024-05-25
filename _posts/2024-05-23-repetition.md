@@ -125,8 +125,10 @@ ellipse(250,250,random(step*10),random(step*10))
 ```
 [See the Code here.](/skills-github-pages/creative-code/repetition-second-copy/index.html)
 
-## Final Variation and ** Showcase Piece **
-This is my final variation and my main showcase piece of all the experiments I have done. I went back to rectangle shapes and started to experiment trying to create a moving structure out of the smaller pieces. After much trial and error, I made my final structure. I kept the colour scheme black and white since I was inspired by the music video for Lagtrain and even the song somewhat inspired me as well (Source: https://youtu.be/UnIhRpIT7nc?feature=shared). Another music video that somewhat inspired the main structure of the piece was Patchwork Eden as they have 3D block like buildings and other shapes to create strange looking structures. Albeit, the music video has a more colourful tone to it (Source: https://youtu.be/ZlyQu4LGyxo?feature=shared).
+## Final Variation and **Showcase Piece**
+This is my final variation and my main showcase piece of all the experiments I have done. I went back to rectangle shapes and started to experiment trying to create a moving structure out of the smaller pieces. After much trial and error, I made my final structure. I kept the colour scheme black and white since I was inspired by the music video for Lagtrain and even the song somewhat inspired me as well (Source: https://youtu.be/UnIhRpIT7nc?feature=shared). Another music video that somewhat inspired the main structure of the piece was Patchwork Eden as they have 3D block like buildings and other shapes to create strange looking structures. Albeit, the music video has a more colourful tone to it (Source: https://youtu.be/ZlyQu4LGyxo?feature=shared). The piece also looks like TVs that have been stacked on top of each other which also links to the Patchwork Eden music video as there was a distorted TV character within that video as well. I liked how this one turned out and I had a lot of fun trying to experiment with creating the final structure to what I wanted it to look like based on my original idea.
+
+The final alterations for this code was changing the outer **for** loop
 
 Screenshot: <br>
 ![This is the screenshot of the showcase piece](/skills-github-pages/images/repetition-final-copy-screenshot.png)
