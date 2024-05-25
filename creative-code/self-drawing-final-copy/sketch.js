@@ -1,3 +1,4 @@
+let r, g, b;
 var t;
 
 function setup() {
@@ -11,9 +12,9 @@ function draw() {
   var x2 = width * noise(t + 94);
   var y1 = height * noise(t + 24);
   var y2 = height * noise(t + 45);
-  var r = 255 * noise(t+10);
-  var g = 255 * noise(t+15);
-  var b = 255 * noise(t+20);
+  r = 255 * noise(t+26);
+  g = 255 * noise(t+31);
+  b = 255 * noise(t+43);
   
   fill(r, g, b);
   noStroke();
