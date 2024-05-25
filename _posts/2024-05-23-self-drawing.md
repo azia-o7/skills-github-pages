@@ -4,7 +4,7 @@ date: 2024-05-23
 - - -
 # Repetition Experimentation
 ## The original project
-This is the original bezier curve generative art video that I watched on YouTube. This helped me get a deeper understanding of Perlin Noise when it comes to making generative art and also controlling the **noise** function to make the computer draw similar to a human drawing. This is the video below: 
+This is the original bezier curve generative art video that I watched on **YouTube**. This helped me get a deeper understanding of Perlin Noise when it comes to making generative art and also controlling the **noise** function to make the computer draw similar to a human drawing. This is the video below: 
 https://youtu.be/uctX1P3H3xM?feature=shared
 
 This was my starting point with the code.
